@@ -4,7 +4,9 @@ import Navbar from "./components/Navbar/Navbar";
 import { fetchSongs, fetchTopAlbums, fetchNewAlbums} from "./api/api";
 // import Card from "./components/Card/Card";
 import Section from "./components/Section/Section";
-import styles from "./App.module.css";
+//import styles from "./App.module.css";
+import styles from "F:\qtify project\Qtify\qtify\src\App.module.css";
+
 
 function App() {
   const [topAlbumsData,setTopAlbumsData] = useState([]);
