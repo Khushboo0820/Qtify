@@ -1,23 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
-//import Button from "../Button/Button";
-import Logo from "F:\qtify project\Qtify\qtify\src\components\Logo\Logo.jsx"
-import Search from "../Search/Search";
-import styles from "../Navbar/Navbar.module.css";
+import React from 'react';
+import styles from './Navbar.module.css';
+import Logo from "../Logo/Logo";  // Corrected import
+import Button from "../Button1/Button1";
+import Search from '../Search/Search';
 
-function Navbar({ searchData }) {
-  return (
-    <nav className={styles.navbar}>
-      <Link to="/">
-        <Logo />
-      </Link>
-      <Search
-        placeholder="Search a song of your choice"
-        searchData={searchData}
-      />
-      <button>Give Feedback</button>
-    </nav>
-  );
+const Navbar = ({data}) => {
+    return(
+        <nav className={styles.navbar}>
+            <Logo />
+            <Search placeholder="Search an album"/>
+            <Button text="Feedback"/>
+        </nav>
+    )
 }
 
 export default Navbar;
