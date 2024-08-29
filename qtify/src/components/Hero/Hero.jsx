@@ -1,6 +1,7 @@
 import React from "react";
-import HeroImage from "../../assets/vibrating-headphone 1.png"
-import styles from "./Hero.module.css"
+import HeroImage from "../../assets/vibrating-headphone 1.png";
+import styles from "./Hero.module.css";
+
 
 const Hero = () => {
     return(
@@ -10,7 +11,7 @@ const Hero = () => {
                 <h1>dive into thousands of podcast episodes</h1>
             </div>
             <div>
-                <img src={HeroImage} alt="Headphone" width={212}/>
+                <img src={HeroImage} alt="Headphone" width={210} />
             </div>
         </div>
     )

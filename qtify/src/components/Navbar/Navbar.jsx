@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Navbar.module.css';
-import Logo from "../Logo/Logo";  // Corrected import
+//import Logo from "../Logo/Logo"; 
+import Logo from  "../Logo/Logo"; // Corrected import
 import Button from "../Button1/Button1";
 import Search from '../Search/Search';
 
