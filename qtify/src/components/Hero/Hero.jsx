@@ -3,7 +3,7 @@ import HeroImage from "../../assets/vibrating-headphone 1.png";
 import styles from "./Hero.module.css";
 
 
-const Hero = () => {
+function Hero() {
     return(
         <div className={styles.hero}>
             <div>
@@ -14,7 +14,7 @@ const Hero = () => {
                 <img src={HeroImage} alt="Headphone" width={210} />
             </div>
         </div>
-    )
+    );
 }
 
 export default Hero;

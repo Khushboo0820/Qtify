@@ -1,4 +1,4 @@
-.button{
+/* .button{
     font-family: "Poppins", sans-serif;
     background-color: black;
     color:green;
@@ -10,8 +10,8 @@
     
     
     
-}
-/* .button {
+} */
+.button {
     background-color: var(--color-black);
     color: var(--color-primary);
     border: none;
@@ -24,4 +24,4 @@
     letter-spacing: 0.25px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
-  } */
+  }

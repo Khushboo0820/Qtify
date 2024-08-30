@@ -1,18 +1,23 @@
-import React from 'react';
-import styles from './Navbar.module.css';
-//import Logo from "../Logo/Logo"; 
-import Logo from  "../Logo/Logo"; // Corrected import
+import React from "react";
+import { Link } from "react-router-dom";
 import Button from "../Button1/Button1";
-import Search from '../Search/Search';
+import Logo from "../Logo/Logo";
+import Search from "../Search/Search";
+import styles from "./Navbar.module.css";
 
-const Navbar = ({data}) => {
-    return(
-        <nav className={styles.navbar}>
-            <Logo />
-            <Search placeholder="Search a album of your choice "/>
-            <Button text="Give Feedback"/>
-        </nav>
-    )
+function Navbar({ searchData }) {
+  return (
+    <nav className={styles.navbar}>
+      <Link to="/">
+        <Logo />
+      </Link>
+      <Search placeholder="Search a song of your choice" />
+      <Button
+        text="Give Feedback"
+        onClick={() => alert("Feedback button clicked!")}
+      />
+    </nav>
+  );
 }
 
 export default Navbar;
