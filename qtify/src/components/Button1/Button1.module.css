@@ -25,3 +25,7 @@
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
   }
+  .button:hover {
+    cursor: pointer;
+    /*color:aqua  Explicitly setting pointer cursor for hover */
+}
